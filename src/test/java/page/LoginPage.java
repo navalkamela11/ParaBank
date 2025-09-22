@@ -52,7 +52,7 @@ public class LoginPage {
 	}
 	
 	public void ValidateMessage(String Message) {
-		WebElement text = driver.findElement(By.tagName(".title"));
+		WebElement text = driver.findElement(By.cssSelector(".title"));
 		Assert.assertTrue(text.isDisplayed());
 		
 	}
